@@ -16,13 +16,8 @@ const Numbers = () => {
 
   return (
     <div>
-{/* HELLO THERE */}
-          {/* <div> {numbers.map(x => x*2)};</div> */}
-          <div> {numbers.map((x,i) => <NumberButton key={i}number={x}/>)}</div>
+      <div> {numbers.map((x,i) => <NumberButton key={i}number={x}/>)}</div>
       
- 
-      
-  
     </div>
   );
 };

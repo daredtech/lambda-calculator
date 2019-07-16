@@ -16,17 +16,7 @@ const Specials = () => {
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
-       {/* {specials.map(x => <SpecialButton special={x}/>)} */}
        {specials.map((x, i) => <SpecialButton key={i} special={x}/>)}
-
-{/* 
-       {calcNum.map( (number, i) => {
-        return <NumberButton key={i} value={number} functionVar={props.displayContent} />
-      })} */}
-
-
-
-
 
     </div>
   );
