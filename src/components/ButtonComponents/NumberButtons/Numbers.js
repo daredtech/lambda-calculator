@@ -1,13 +1,13 @@
 //import any components needed
-import React from "react";
+import React, {useState} from "react";
 import {numbers} from "/Users/red/Desktop/lambda/projects/lambda-calculator/src/data"
-
-
 
 //Import your array data to from the provided data file
 const Numbers = () => {
-  console.log('PRINTING NUMBERS ' + {numbers});
+ 
   // STEP 2 - add the imported data to state
+  const [numberState, setNumberState] = useState(numbers);
+  
   return (
     <div>
       
