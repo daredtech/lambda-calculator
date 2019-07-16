@@ -1,6 +1,6 @@
-import React from "react";
-
 //import any components needed
+import React, {useState} from "react";
+import {operations} from "/Users/red/Desktop/lambda/projects/lambda-calculator/src/data"
 
 //Import your array data to from the provided data file
 
