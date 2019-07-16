@@ -18,7 +18,7 @@ const Numbers = () => {
     <div>
 {/* HELLO THERE */}
           {/* <div> {numbers.map(x => x*2)};</div> */}
-          <div> {numbers.map(x => <NumberButton number={x}/>)}</div>
+          <div> {numbers.map((x,i) => <NumberButton key={i}number={x}/>)}</div>
       
  
       
