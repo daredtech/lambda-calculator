@@ -1,4 +1,34 @@
 :root {
-    background-color: #ff2d2b;
+    
   }
   
+  .container{
+    display: flex;
+    background-color: #a91614;
+    width: 50%;
+    border-radius: 25px;
+  }
+
+  .App{
+    margin: 7%;
+    width: 100%;
+  }
+
+  .logoIcon{
+      display: flex;
+      width: 40%;  
+  }
+
+
+  .display{
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      border-radius: 25px;
+      background-color: darkgray;
+  }
+  .symbols{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+  }

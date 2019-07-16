@@ -1,3 +1,4 @@
+import {useState} from "react";
 import React from "react";
 import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
 import Specials from "./components/ButtonComponents/SpecialButtons/Specials";
@@ -17,16 +18,24 @@ function App() {
   // the "5" button, or the operator if they click one of those buttons) and then call your setter function to update state.
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
+
+  const [displayValue, setDisplayValue] = useState(0);
+
   return (
     <div className="container">
-      
-      <Logo />
+  
       <div className="App">
+
+      <div className='logoIcon'>  <Logo /></div>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <Display />
+        <div className='display'> <Display />
+        </div>
+        <div className='symbols'>
         <Numbers />
         <Specials />
         <Operators />
+        </div>
+
       </div>
     </div>
   );
