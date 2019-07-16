@@ -6,6 +6,8 @@ import {specials} from "/Users/red/Desktop/lambda/projects/lambda-calculator/src
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
+  const [specialState, setSpecialState] = useState(specials);
+
 
   return (
     <div>
