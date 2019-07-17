@@ -23,17 +23,18 @@ function App() {
 
   return (
     <div className="container">
-  
       <div className="App">
-
       <div className='logoIcon'>  <Logo /></div>
+  
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <div className='display'> <Display />
+        <div className='display'> <Display displayValue={displayValue} setDisplayValue={setDisplayValue}/>
         </div>
-        <div className='symbols'>
-        <Numbers />
-        <Specials />
-        <Operators />
+        <div className='symbols'><div className='specials'> <Specials /> </div>
+
+        <div className='numbers'>  <Numbers /> </div>
+     
+        <div className='operators'>   <Operators /> </div>
+      
         </div>
 
       </div>
