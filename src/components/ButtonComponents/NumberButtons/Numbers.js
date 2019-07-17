@@ -15,10 +15,8 @@ const Numbers = () => {
   // const number = 11;
 
   return (
-    <div>
-      <div> {numbers.map((x,i) => <NumberButton key={i}number={x}/>)}</div>
-      
-    </div>
+
+      <div className='numbers'> {numbers.map((x,i) => <NumberButton key={i}number={x}/>)}</div>
   );
 };
 
