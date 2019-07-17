@@ -55,7 +55,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: green;
     order: 2;
    }
    .symbols .operators{
@@ -90,4 +89,9 @@
 
 .operators button{
     background-color: rgb(94, 199, 240);
+}
+
+[class="0"] {
+    width: 170px;
+    border-radius: 30px;
 }
